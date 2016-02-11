@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDF58A051C6CE53E001DAD07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF58A041C6CE53E001DAD07 /* AppDelegate.swift */; };
+		EDF58A071C6CE53E001DAD07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF58A061C6CE53E001DAD07 /* ViewController.swift */; };
+		EDF58A0A1C6CE53E001DAD07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF58A081C6CE53E001DAD07 /* Main.storyboard */; };
+		EDF58A0C1C6CE53E001DAD07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF58A0B1C6CE53E001DAD07 /* Assets.xcassets */; };
+		EDF58A0F1C6CE53E001DAD07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF58A0D1C6CE53E001DAD07 /* LaunchScreen.storyboard */; };
+		EDF58A1A1C6CE53E001DAD07 /* appiumtestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF58A191C6CE53E001DAD07 /* appiumtestTests.swift */; };
+		EDF58A251C6CE53E001DAD07 /* appiumtestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF58A241C6CE53E001DAD07 /* appiumtestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDF58A161C6CE53E001DAD07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDF589F91C6CE53E001DAD07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDF58A001C6CE53E001DAD07;
+			remoteInfo = appiumtest;
+		};
+		EDF58A211C6CE53E001DAD07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDF589F91C6CE53E001DAD07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDF58A001C6CE53E001DAD07;
+			remoteInfo = appiumtest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDF58A011C6CE53E001DAD07 /* appiumtest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appiumtest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF58A041C6CE53E001DAD07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDF58A061C6CE53E001DAD07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDF58A091C6CE53E001DAD07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDF58A0B1C6CE53E001DAD07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDF58A0E1C6CE53E001DAD07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDF58A101C6CE53E001DAD07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDF58A151C6CE53E001DAD07 /* appiumtestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appiumtestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF58A191C6CE53E001DAD07 /* appiumtestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appiumtestTests.swift; sourceTree = "<group>"; };
+		EDF58A1B1C6CE53E001DAD07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDF58A201C6CE53E001DAD07 /* appiumtestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appiumtestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF58A241C6CE53E001DAD07 /* appiumtestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appiumtestUITests.swift; sourceTree = "<group>"; };
+		EDF58A261C6CE53E001DAD07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDF589FE1C6CE53E001DAD07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF58A121C6CE53E001DAD07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF58A1D1C6CE53E001DAD07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDF589F81C6CE53E001DAD07 = {
+			isa = PBXGroup;
+			children = (
+				EDF58A031C6CE53E001DAD07 /* appiumtest */,
+				EDF58A181C6CE53E001DAD07 /* appiumtestTests */,
+				EDF58A231C6CE53E001DAD07 /* appiumtestUITests */,
+				EDF58A021C6CE53E001DAD07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDF58A021C6CE53E001DAD07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDF58A011C6CE53E001DAD07 /* appiumtest.app */,
+				EDF58A151C6CE53E001DAD07 /* appiumtestTests.xctest */,
+				EDF58A201C6CE53E001DAD07 /* appiumtestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDF58A031C6CE53E001DAD07 /* appiumtest */ = {
+			isa = PBXGroup;
+			children = (
+				EDF58A041C6CE53E001DAD07 /* AppDelegate.swift */,
+				EDF58A061C6CE53E001DAD07 /* ViewController.swift */,
+				EDF58A081C6CE53E001DAD07 /* Main.storyboard */,
+				EDF58A0B1C6CE53E001DAD07 /* Assets.xcassets */,
+				EDF58A0D1C6CE53E001DAD07 /* LaunchScreen.storyboard */,
+				EDF58A101C6CE53E001DAD07 /* Info.plist */,
+			);
+			path = appiumtest;
+			sourceTree = "<group>";
+		};
+		EDF58A181C6CE53E001DAD07 /* appiumtestTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDF58A191C6CE53E001DAD07 /* appiumtestTests.swift */,
+				EDF58A1B1C6CE53E001DAD07 /* Info.plist */,
+			);
+			path = appiumtestTests;
+			sourceTree = "<group>";
+		};
+		EDF58A231C6CE53E001DAD07 /* appiumtestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDF58A241C6CE53E001DAD07 /* appiumtestUITests.swift */,
+				EDF58A261C6CE53E001DAD07 /* Info.plist */,
+			);
+			path = appiumtestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDF58A001C6CE53E001DAD07 /* appiumtest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDF58A291C6CE53E001DAD07 /* Build configuration list for PBXNativeTarget "appiumtest" */;
+			buildPhases = (
+				EDF589FD1C6CE53E001DAD07 /* Sources */,
+				EDF589FE1C6CE53E001DAD07 /* Frameworks */,
+				EDF589FF1C6CE53E001DAD07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = appiumtest;
+			productName = appiumtest;
+			productReference = EDF58A011C6CE53E001DAD07 /* appiumtest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDF58A141C6CE53E001DAD07 /* appiumtestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDF58A2C1C6CE53E001DAD07 /* Build configuration list for PBXNativeTarget "appiumtestTests" */;
+			buildPhases = (
+				EDF58A111C6CE53E001DAD07 /* Sources */,
+				EDF58A121C6CE53E001DAD07 /* Frameworks */,
+				EDF58A131C6CE53E001DAD07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDF58A171C6CE53E001DAD07 /* PBXTargetDependency */,
+			);
+			name = appiumtestTests;
+			productName = appiumtestTests;
+			productReference = EDF58A151C6CE53E001DAD07 /* appiumtestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDF58A1F1C6CE53E001DAD07 /* appiumtestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDF58A2F1C6CE53E001DAD07 /* Build configuration list for PBXNativeTarget "appiumtestUITests" */;
+			buildPhases = (
+				EDF58A1C1C6CE53E001DAD07 /* Sources */,
+				EDF58A1D1C6CE53E001DAD07 /* Frameworks */,
+				EDF58A1E1C6CE53E001DAD07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDF58A221C6CE53E001DAD07 /* PBXTargetDependency */,
+			);
+			name = appiumtestUITests;
+			productName = appiumtestUITests;
+			productReference = EDF58A201C6CE53E001DAD07 /* appiumtestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDF589F91C6CE53E001DAD07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = aaa.johannmg;
+				TargetAttributes = {
+					EDF58A001C6CE53E001DAD07 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					EDF58A141C6CE53E001DAD07 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EDF58A001C6CE53E001DAD07;
+					};
+					EDF58A1F1C6CE53E001DAD07 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EDF58A001C6CE53E001DAD07;
+					};
+				};
+			};
+			buildConfigurationList = EDF589FC1C6CE53E001DAD07 /* Build configuration list for PBXProject "appiumtest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDF589F81C6CE53E001DAD07;
+			productRefGroup = EDF58A021C6CE53E001DAD07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDF58A001C6CE53E001DAD07 /* appiumtest */,
+				EDF58A141C6CE53E001DAD07 /* appiumtestTests */,
+				EDF58A1F1C6CE53E001DAD07 /* appiumtestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDF589FF1C6CE53E001DAD07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF58A0F1C6CE53E001DAD07 /* LaunchScreen.storyboard in Resources */,
+				EDF58A0C1C6CE53E001DAD07 /* Assets.xcassets in Resources */,
+				EDF58A0A1C6CE53E001DAD07 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF58A131C6CE53E001DAD07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF58A1E1C6CE53E001DAD07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDF589FD1C6CE53E001DAD07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF58A071C6CE53E001DAD07 /* ViewController.swift in Sources */,
+				EDF58A051C6CE53E001DAD07 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF58A111C6CE53E001DAD07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF58A1A1C6CE53E001DAD07 /* appiumtestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF58A1C1C6CE53E001DAD07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF58A251C6CE53E001DAD07 /* appiumtestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDF58A171C6CE53E001DAD07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDF58A001C6CE53E001DAD07 /* appiumtest */;
+			targetProxy = EDF58A161C6CE53E001DAD07 /* PBXContainerItemProxy */;
+		};
+		EDF58A221C6CE53E001DAD07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDF58A001C6CE53E001DAD07 /* appiumtest */;
+			targetProxy = EDF58A211C6CE53E001DAD07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDF58A081C6CE53E001DAD07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDF58A091C6CE53E001DAD07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDF58A0D1C6CE53E001DAD07 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDF58A0E1C6CE53E001DAD07 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDF58A271C6CE53E001DAD07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDF58A281C6CE53E001DAD07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDF58A2A1C6CE53E001DAD07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = appiumtest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aaa.johannmg.appiumtest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EDF58A2B1C6CE53E001DAD07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = appiumtest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aaa.johannmg.appiumtest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EDF58A2D1C6CE53E001DAD07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = appiumtestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aaa.johannmg.appiumtestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appiumtest.app/appiumtest";
+			};
+			name = Debug;
+		};
+		EDF58A2E1C6CE53E001DAD07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = appiumtestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aaa.johannmg.appiumtestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appiumtest.app/appiumtest";
+			};
+			name = Release;
+		};
+		EDF58A301C6CE53E001DAD07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = appiumtestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aaa.johannmg.appiumtestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = appiumtest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EDF58A311C6CE53E001DAD07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = appiumtestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aaa.johannmg.appiumtestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = appiumtest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDF589FC1C6CE53E001DAD07 /* Build configuration list for PBXProject "appiumtest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF58A271C6CE53E001DAD07 /* Debug */,
+				EDF58A281C6CE53E001DAD07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDF58A291C6CE53E001DAD07 /* Build configuration list for PBXNativeTarget "appiumtest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF58A2A1C6CE53E001DAD07 /* Debug */,
+				EDF58A2B1C6CE53E001DAD07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EDF58A2C1C6CE53E001DAD07 /* Build configuration list for PBXNativeTarget "appiumtestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF58A2D1C6CE53E001DAD07 /* Debug */,
+				EDF58A2E1C6CE53E001DAD07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EDF58A2F1C6CE53E001DAD07 /* Build configuration list for PBXNativeTarget "appiumtestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF58A301C6CE53E001DAD07 /* Debug */,
+				EDF58A311C6CE53E001DAD07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDF589F91C6CE53E001DAD07 /* Project object */;
+}
