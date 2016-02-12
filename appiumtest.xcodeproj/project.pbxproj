@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					EDF58A001C6CE53E001DAD07 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = AGES4C3QAB;
 					};
 					EDF58A141C6CE53E001DAD07 = {
 						CreatedOnToolsVersion = 7.2;
@@ -397,9 +398,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = appiumtest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = aaa.johannmg.appiumtest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaa.johannmg.appiumtest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -408,9 +411,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = appiumtest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = aaa.johannmg.appiumtest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaa.johannmg.appiumtest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

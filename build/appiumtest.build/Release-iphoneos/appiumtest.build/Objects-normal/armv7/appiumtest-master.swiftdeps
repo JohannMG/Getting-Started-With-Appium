@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "10019c0ae1e1c97a6cf903c3ebf203fe"
+build_time: [508524545, 150707000]
+inputs:
+  "/Users/jgarces/dev/ios/appiumtest/appiumtest/ViewController.swift": [508524513, 0]
+  "/Users/jgarces/dev/ios/appiumtest/appiumtest/AppDelegate.swift": [508521022, 0]
