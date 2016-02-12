@@ -3,6 +3,7 @@ import io.appium.java_client.ios.IOSDriver;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import static org.junit.Assert.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -29,6 +30,7 @@ public class FirstTest {
 
     @After
     public void tearDown() throws Exception{
+        //closes qpp, not selenium session
 //        iosDriver.quit();
     }
 
@@ -38,7 +40,10 @@ public class FirstTest {
         fillTextBoxButton.click();
 
         WebElement textbox = iosDriver.findElement(By.name("Textbox"));
+        assertEquals(textbox.getText(), "Hello");
 
     }
+
+
 
 }
